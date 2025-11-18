@@ -13,6 +13,49 @@ pnpm dev
 # or
 bun dev
 ```
+Project Details - 
+
+Tech Stack
+
+Frontend: Next.js (App Router), Tailwind CSS, Material UI
+Backend: FastAPI (Python)
+Database: MongoDB
+Tools: Git, VS Code, Postman
+
+
+Prerequisites (Must Install Before Running)
+
+This section is mandatory in enterprise README.
+
+You must list required installations:
+
+✔ Node.js (v18+)
+✔ Python 3.11+
+✔ MongoDB (Local or Atlas)
+✔ Git
+✔ Package Managers
+
+npm
+
+pip
+
+Clone the repo - 
+
+git clone https://github.com/yourrepo/ecom-app.git
+cd ecom-app
+
+Frontend Setup - 
+cd frontend
+npm install
+npm run dev
+
+Backend Setup - 
+
+cd backend
+python -m venv venv
+venv\Scripts\activate
+pip install -r requirements.txt
+uvicorn app.main:app --reload 
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
